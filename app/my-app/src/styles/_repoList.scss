@@ -1,0 +1,52 @@
+body{
+background-color: #00030a;
+background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+color: #fff;
+}
+    .Repo {
+  h1 {
+    text-align: center;
+    margin-top: 2%;
+  }
+  .RepoList {
+    margin: 10% 0;
+    height: 60vh;
+    overflow-y: scroll;
+    .GithubRepo {
+        margin-bottom: 10px;
+      .RepoImage {
+        img {
+          height: 275px;
+          width: 275px;
+        }
+      }
+      .RepoBody {
+        padding-left: 10%;
+        *{
+            margin: 5% 0;
+        }
+        p{
+            font-size: larger;
+        }
+        .body-info{
+            *{
+                margin: 0 2% 0 0;
+            }
+            span:nth-child(-n+2) {
+                border: 1px solid white;
+                padding: 1%;
+            }
+        }
+      }
+    }
+  }
+  .PaginationGroup {
+    text-align: center;
+    margin-bottom: 2%;
+    * {
+        padding: 0 4%;
+        margin: 0 5%;
+        font-size: larger;
+    }
+  }
+}
